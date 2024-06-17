@@ -16,7 +16,7 @@ This project implements a drone detection system using ensemble learning techniq
 ### Methodology
 1. **Data Collection and Annotation**: Assembled a dataset featuring drone images with corresponding XML annotations for box coordinates.
 
-   ![XML Screenshot](path/to/xml_screenshot.png)  <!-- Replace with actual path -->
+     <!-- Replace with actual path -->
 
 2. **Dataset Partitioning**: Divided the annotated dataset into training and testing sets.
 3. **Model Selection and Configuration**: Chose pre-trained SSD and EfficientDet models, adapting configurations such as step size, batch size, dropout, and normalization layers to fit the custom drone dataset.
@@ -30,8 +30,6 @@ This project implements a drone detection system using ensemble learning techniq
 - **Steps**: Resizing, normalization, and noise removal using OpenCV.
 - **Image Size**: Adjusted to 256x256 for computational efficiency.
 
-   ![Before Image](path/to/before_image.png)  <!-- Replace with actual path -->
-   ![After Image](path/to/after_image.png)  <!-- Replace with actual path -->
 
 ### Model Training and Evaluation
 - Fine-tuned SSD and EfficientDet models using the custom dataset.
